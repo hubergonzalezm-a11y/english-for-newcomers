@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      id="page-description"
+      name="description"
+      content="Learn practical beginner English for everyday life in Toronto. Aprende inglés práctico para la vida diaria en Toronto."
+    >
+    <meta name="theme-color" content="#f7f8f5">
+    <title data-i18n="pageTitle">English for Newcomers | Inglés para nuevos residentes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="English for Newcomers home">
+        <span class="brand-mark" aria-hidden="true">e.</span>
+        <span class="brand-name">English <span>for Newcomers</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#vocabulary" data-i18n="navVocabulary">Vocabulary</a>
+        <a href="#grammar" data-i18n="navGrammar">Grammar</a>
+        <a href="#toronto" data-i18n="navToronto">Life in Toronto</a>
+        <a href="#speaking" data-i18n="navSpeaking">Speaking</a>
+        <a href="#quiz" data-i18n="navPractice">Practice</a>
+      </nav>
+      <button class="language-toggle" id="language-toggle" type="button" aria-label="Cambiar idioma a español">ES <span aria-hidden="true">↗</span></button>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-content">
+          <p class="eyebrow"><span class="eyebrow-dot"></span><span data-i18n="heroEyebrow">YOUR NEW LIFE, YOUR NEXT WORD</span></p>
+          <h1 id="page-title" data-i18n="heroTitle">English for the life you’re building.</h1>
+          <p class="hero-copy" data-i18n="heroCopy">Friendly, practical English for everyday moments in Toronto and the GTA. Start at your own pace.</p>
+          <a class="button button-light" href="#vocabulary"><span data-i18n="startLearning">Start learning</span><span aria-hidden="true">↓</span></a>
+          <div class="hero-note"><span class="note-icon" aria-hidden="true">✳</span><span data-i18n="heroNote">Made for Spanish-speaking newcomers · Beginner A1–A2</span></div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-sun"></div>
+          <div class="art-card art-card-top"><span class="art-card-icon">A</span><span>Hello<br><small>Hola · سلام · Bonjour</small></span><span class="art-sparkle">✳</span></div>
+          <div class="art-card art-card-bottom"><span class="art-pin">↗</span><span>Toronto, ON<br><small>A new place to call home</small></span></div>
+          <div class="art-shape"></div>
+          <div class="art-street"></div>
+        </div>
+        <div class="hero-index"><span>01</span><span class="index-line"></span><span data-i18n="heroIndex">SMALL STEPS. REAL PROGRESS.</span></div>
+      </section>
+
+      <section class="welcome section-wrap" aria-labelledby="welcome-title">
+        <div>
+          <p class="eyebrow eyebrow-dark" data-i18n="welcomeEyebrow">A GOOD PLACE TO BEGIN</p>
+          <h2 id="welcome-title" data-i18n="welcomeTitle">Build confidence for everyday life.</h2>
+        </div>
+        <p class="section-intro" data-i18n="welcomeCopy">Learn useful words, practice simple grammar, and feel more ready for the conversations that come with settling into a new city.</p>
+      </section>
+
+      <section class="learning-section section-wrap" id="vocabulary" aria-labelledby="vocabulary-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow eyebrow-dark"><span class="section-number">01</span><span data-i18n="vocabEyebrow">WORDS YOU CAN USE</span></p>
+            <h2 id="vocabulary-title" data-i18n="vocabTitle">A little vocabulary goes a long way.</h2>
+          </div>
+          <p class="section-intro" data-i18n="vocabIntro">Start with common words. See the meaning in Spanish and a short example in English.</p>
+        </div>
+        <div class="vocabulary-grid">
+          <article class="vocab-card vocab-card-green">
+            <span class="card-category" data-i18n="vocabTransit">GETTING AROUND</span>
+            <h3 data-i18n="wordBus">bus</h3>
+            <p class="translation">el autobús</p>
+            <p class="vocab-example"><span data-i18n="exampleLabel">Try it:</span> <bdi dir="ltr">“I take the bus to work.”</bdi> <span class="example-translation" data-i18n="busExampleTranslation">(Tomo el autobús al trabajo.)</span></p>
+          </article>
+          <article class="vocab-card vocab-card-peach">
+            <span class="card-category" data-i18n="vocabShopping">AT THE STORE</span>
+            <h3 data-i18n="wordPrice">price</h3>
+            <p class="translation">el precio</p>
+            <p class="vocab-example"><span data-i18n="exampleLabel">Try it:</span> <bdi dir="ltr">“What is the price?”</bdi> <span class="example-translation" data-i18n="priceExampleTranslation">(¿Cuál es el precio?)</span></p>
+          </article>
+          <article class="vocab-card vocab-card-lilac">
+            <span class="card-category" data-i18n="vocabHealth">HEALTH &amp; WELLNESS</span>
+            <h3 data-i18n="wordAppointment">appointment</h3>
+            <p class="translation">la cita</p>
+            <p class="vocab-example"><span data-i18n="exampleLabel">Try it:</span> <bdi dir="ltr">“I have a doctor’s appointment.”</bdi> <span class="example-translation" data-i18n="appointmentExampleTranslation">(Tengo una cita médica.)</span></p>
+          </article>
+          <article class="vocab-card vocab-card-blue">
+            <span class="card-category" data-i18n="vocabHome">AT HOME</span>
+            <h3 data-i18n="wordRent">rent</h3>
+            <p class="translation">el alquiler</p>
+            <p class="vocab-example"><span data-i18n="exampleLabel">Try it:</span> <bdi dir="ltr">“The rent is due on Monday.”</bdi> <span class="example-translation" data-i18n="rentExampleTranslation">(El alquiler vence el lunes.)</span></p>
+          </article>
+        </div>
+      </section>
+
+      <section class="grammar-section" id="grammar" aria-labelledby="grammar-title">
+        <div class="section-wrap grammar-layout">
+          <div class="grammar-copy">
+            <p class="eyebrow"><span class="section-number">02</span><span data-i18n="grammarEyebrow">GRAMMAR MADE FRIENDLY</span></p>
+            <h2 id="grammar-title" data-i18n="grammarTitle">Simple building blocks. Clearer conversations.</h2>
+            <p data-i18n="grammarIntro">Learn one useful pattern at a time. No complicated explanations—just clear examples you can use today.</p>
+            <a class="text-link" href="#quiz"><span data-i18n="tryPractice">Try a practice question</span><span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="grammar-cards">
+            <article class="grammar-card">
+              <span class="grammar-tag">A1</span>
+              <h3 data-i18n="grammarBe">The verb “to be”</h3>
+              <p class="grammar-rule" data-i18n="grammarBeExplain">Use am, is, or are to talk about yourself and other people.</p>
+              <p class="grammar-example" dir="ltr">“I <strong>am</strong> new here.” <span dir="auto" data-i18n="grammarBeTranslation">Soy nuevo/a aquí.</span></p>
+            </article>
+            <article class="grammar-card">
+              <span class="grammar-tag grammar-tag-warm">A1</span>
+              <h3 data-i18n="grammarPresent">Present simple</h3>
+              <p class="grammar-rule" data-i18n="grammarPresentExplain">Use the present simple for routines and everyday facts.</p>
+              <p class="grammar-example" dir="ltr">“I <strong>take</strong> the bus.” <span dir="auto" data-i18n="grammarPresentTranslation">Tomo el autobús.</span></p>
+            </article>
+            <article class="grammar-card">
+              <span class="grammar-tag grammar-tag-blue">A2</span>
+              <h3 data-i18n="grammarQuestions">Simple questions</h3>
+              <p class="grammar-rule" data-i18n="grammarQuestionsExplain">Start with “Do you…?” to ask about routines or preferences.</p>
+              <p class="grammar-example" dir="ltr">“<strong>Do you</strong> need help?” <span dir="auto" data-i18n="grammarQuestionsTranslation">¿Necesitas ayuda?</span></p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="learning-section section-wrap" id="toronto" aria-labelledby="toronto-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow eyebrow-dark"><span class="section-number">03</span><span data-i18n="torontoEyebrow">ENGLISH OUT IN THE WORLD</span></p>
+            <h2 id="toronto-title" data-i18n="torontoTitle">Real life in Toronto.</h2>
+          </div>
+          <p class="section-intro" data-i18n="torontoIntro">Practice the words and phrases you need for everyday tasks around the city.</p>
+        </div>
+        <div class="life-grid">
+          <article class="life-card">
+            <span class="life-icon icon-transit" aria-hidden="true">↗</span>
+            <div><h3 data-i18n="lifeTransit">Transportation</h3><p class="life-phrase" dir="ltr">“Which bus goes downtown?”</p><p class="life-translation" data-i18n="lifeTransitEs">¿Qué autobús va al centro?</p></div>
+          </article>
+          <article class="life-card">
+            <span class="life-icon icon-shop" aria-hidden="true">$</span>
+            <div><h3 data-i18n="lifeShopping">Shopping</h3><p class="life-phrase" dir="ltr">“Can I pay by card?”</p><p class="life-translation" data-i18n="lifeShoppingEs">¿Puedo pagar con tarjeta?</p></div>
+          </article>
+          <article class="life-card">
+            <span class="life-icon icon-health" aria-hidden="true">+</span>
+            <div><h3 data-i18n="lifeHealthcare">Healthcare</h3><p class="life-phrase" dir="ltr">“I need to see a doctor.”</p><p class="life-translation" data-i18n="lifeHealthcareEs">Necesito ver a un médico.</p></div>
+          </article>
+          <article class="life-card">
+            <span class="life-icon icon-jobs" aria-hidden="true">✓</span>
+            <div><h3 data-i18n="lifeJobs">Finding work</h3><p class="life-phrase" dir="ltr">“I am looking for a job.”</p><p class="life-translation" data-i18n="lifeJobsEs">Estoy buscando trabajo.</p></div>
+          </article>
+          <article class="life-card">
+            <span class="life-icon icon-home" aria-hidden="true">⌂</span>
+            <div><h3 data-i18n="lifeRenting">Renting a home</h3><p class="life-phrase" dir="ltr">“Is the apartment available?”</p><p class="life-translation" data-i18n="lifeRentingEs">¿Está disponible el apartamento?</p></div>
+          </article>
+          <a class="life-card life-card-more" href="#quiz"><span data-i18n="morePractice">More practical English</span><span class="more-arrow" aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="speaking-section section-wrap" id="speaking" aria-labelledby="speaking-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow eyebrow-dark"><span class="section-number">04</span><span data-i18n="speakingEyebrow">LISTEN, SPEAK, TRY AGAIN</span></p>
+            <h2 id="speaking-title" data-i18n="speakingTitle">Practice saying it out loud.</h2>
+          </div>
+          <p class="section-intro" data-i18n="speakingIntro">Listen to a useful phrase, then say it in English. Take your time—practice is what matters.</p>
+        </div>
+        <aside class="speech-note" aria-label="Speech practice information">
+          <span class="speech-note-icon" aria-hidden="true">i</span>
+          <p data-i18n="speechPrivacyNote">Your browser may send speech to an online service to recognize it, so an internet connection may be needed. Recognition can vary and does not measure pronunciation accuracy.</p>
+        </aside>
+        <div class="speaking-list" id="speaking-list" aria-label="Speaking phrases"></div>
+        <p class="speech-support" id="speech-support" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="quiz-section" id="quiz" aria-labelledby="quiz-title">
+        <div class="section-wrap quiz-layout">
+          <div class="quiz-intro">
+            <p class="eyebrow"><span class="section-number">05</span><span data-i18n="quizEyebrow">A MOMENT TO PRACTICE</span></p>
+            <h2 id="quiz-title" data-i18n="quizTitle">You’re learning more than you think.</h2>
+            <p data-i18n="quizIntro">Try a few quick questions. Learn from each answer and watch your confidence grow.</p>
+            <div class="quiz-progress-copy"><span data-i18n="yourScore">YOUR SCORE</span><strong id="score" aria-live="polite">0 / 5</strong></div>
+            <div class="progress-track" role="progressbar" aria-label="Quiz progress" aria-valuemin="0" aria-valuemax="5" aria-valuenow="0" id="progress"><span id="progress-fill"></span></div>
+          </div>
+          <div class="quiz-card" aria-live="polite">
+            <div class="quiz-card-top"><span class="quiz-label" data-i18n="quickQuiz">QUICK QUIZ</span><span class="question-count" id="question-count">1 / 5</span></div>
+            <p class="quiz-question" id="quiz-question"></p>
+            <div class="quiz-options" id="quiz-options" role="group" aria-label="Answer choices"></div>
+            <p class="quiz-feedback" id="quiz-feedback" aria-live="assertive"></p>
+            <button class="button button-dark quiz-next" id="quiz-next" type="button" hidden><span data-i18n="nextQuestion">Next question</span><span aria-hidden="true">→</span></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing-note section-wrap">
+        <span class="closing-sparkle" aria-hidden="true">✳</span>
+        <p data-i18n="closingNote">A new city. A new language. You’re finding your way—one conversation at a time.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">e.</span><span class="brand-name">English <span>for Newcomers</span></span></a>
+      <p data-i18n="footerNote">A learning project for newcomers in Toronto &amp; the GTA.</p>
+      <a class="back-to-top" href="#home"><span data-i18n="backToTop">Back to top</span> ↑</a>
+    </footer>
+  </body>
+</html>
